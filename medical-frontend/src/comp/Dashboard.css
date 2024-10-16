@@ -1,0 +1,243 @@
+/* General Dashboard Styles */
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Dashboard Menu Styles */
+.dashboard-menu {
+    margin-bottom: 20px;
+}
+
+.radio-button {
+    display: inline-block;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    position: relative; 
+    transition: background-color 0.3s;
+}
+
+.radio-button input[type="radio"] {
+    display: none; 
+}
+
+.radio-button:hover {
+    background-color: #0056b3; 
+}
+
+.dashboard-menu button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.order-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.order-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.dashboard-menu button:hover {
+    background-color: #0056b3;
+}
+
+.date-range {
+    margin-top: 20px;
+    width: 20%; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    background-color: #f9f9f9;
+}
+
+.date-label {
+    display: block;
+    margin-bottom: 10px; 
+    font-size: 16px; 
+}
+
+.date-label input[type="date"] {
+    width: 80%; 
+    margin-top: 5px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.download-button {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    border-radius: 4px; 
+    margin-top: 10px; 
+    margin: 5px 5px;
+}
+
+.download-button:hover {
+    background-color: #0056b3; 
+}
+
+.dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dashboard th, .dashboard td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.dashboard th {
+    background-color: #f4f4f4;
+}
+
+.product-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.product-form h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form textarea,
+.product-form input[type="file"] {
+    display: block;
+    width: calc(100% - 22px); 
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.product-form textarea {
+    height: 100px;
+}
+
+.product-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.product-form button:hover {
+    background-color: #218838;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+.product-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-list img {
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.product-list .details {
+    flex: 1;
+}
+
+.product-list .details h4 {
+    margin: 0 0 5px;
+    font-size: 18px;
+}
+
+.product-list .details p {
+    margin: 0;
+    color: #555;
+}
+
+.product-list .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.product-list .actions button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.product-list .actions button:hover {
+    background-color: #c82333;
+}
+
+
+.search-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-label {
+    margin-bottom: 8px; /* Adjust margin for the label */
+    font-size: 1rem; /* Decrease font size */
+    color: #333;
+    font-weight: 600;
+}
+
+.search-input {
+    padding: 8px 12px; /* Decrease padding */
+    border-radius: 5px; /* Slightly smaller rounded corners */
+    font-size: 0.9rem; /* Decrease font size */
+    width: 250px; /* Set a fixed width for the input */
+}

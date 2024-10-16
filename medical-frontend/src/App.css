@@ -1,0 +1,32 @@
+/* App.css */
+
+.auth-wrapper {
+  position: relative;
+}
+
+.auth-wrapper p {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+}
+
+.auth-wrapper button {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.user-info {
+  margin: 20px;
+  text-align: right;
+}
+
+.user-info p {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.user-info button {
+  display: inline-block;
+  margin-left: 10px;
+}
